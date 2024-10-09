@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+background-color: #000;
+color: #fff;
+--blue-color: #122DB2;
+--yellow-color: #F9B420;
+--pink-color: #E81E50;
+--pilsner-font: "pilsner", sans-serif;
+--mundial-font: "mundial", sans-serif;
+}

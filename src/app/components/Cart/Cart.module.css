@@ -1,0 +1,112 @@
+.cart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cart h2 {
+   font-family: var(--mundial-font);
+   font-size: 1.15em;
+   margin: 1em;
+}
+
+.product-div, .product {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.product-div {
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 1em;
+    border-bottom: solid #fff 1px;
+}
+
+.product {
+    width: 78%;
+}
+
+.product-name {
+    font-family: var(--mundial-font);
+    font-size: 0.97em;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.price {
+    margin: 0.75em;
+    font-weight: 500;
+    font-family: var(--mundial-font);
+}
+
+.total-div {
+    margin-top: 2em;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-family: var(--mundial-font);
+    font-size: 1.10em;
+}
+
+.total-div p {
+    font-weight: 500;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.form input, .form select {
+    background-color: #000;
+    color: #9C9EA4;
+    border: #fff 1px solid;
+    padding: 0.5em;
+    margin: 0.5em;
+    font-family: var(--mundial-font);
+    width: 98%;
+}
+
+.div {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.holder {
+    width: 50%;
+}
+
+.calle {
+    width: 100%;
+}
+
+.form strong {
+    margin-left: 0.5em;
+}
+
+.form button {
+    width: 35%;
+    background-color: var(--pink-color);
+    font-family: var(--mundial-font);
+    padding: 0.40em 2.5em;
+    margin: 1em 0;
+}
+
+.full {
+    width: 80%;
+}
+
+.mitad {
+    width: 50%;
+}

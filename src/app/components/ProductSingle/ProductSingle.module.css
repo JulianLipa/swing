@@ -1,0 +1,54 @@
+.section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--mundial-font);
+}
+
+.details {
+    width: 40%;
+    margin-left: 1em;
+}
+
+.product {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 2em;
+}
+
+.product h1 {
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.product h2 {
+    font-size: 1.75em;
+    font-weight: 600;
+}
+
+.text p {
+    line-height: 1.75em;
+    font-weight: lighter;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 1em;
+    border: #fff 1px solid;
+    padding: 0 1.5em;
+    font-weight: 700;
+}
+
+.button p {
+    padding: 1em;
+}
+
+.actions {
+    display: flex;
+    flex-direction: row;
+    margin: 2em 0;
+}

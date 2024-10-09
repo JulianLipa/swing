@@ -1,0 +1,38 @@
+.section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    margin-top: 1.5em;
+}
+
+.div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: var(--mundial-font);
+    margin-bottom: 1em;
+}
+
+.h3 {
+    font-weight: bold;
+    width: 85%;
+}
+
+.p {
+    font-weight: 100;
+    font-size: 0.85em;
+    margin-bottom: 1em;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.button {
+    font-family: var(--mundial-font);
+    font-size: 0.85em;
+    background-color: var(--pink-color);
+    padding: 0.25em 1.5em;
+}
